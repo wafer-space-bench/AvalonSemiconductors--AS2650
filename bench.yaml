@@ -1,0 +1,27 @@
+source:
+  url: https://github.com/AvalonSemiconductors/AS2650
+  original_url: null
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: Apache-2.0
+  upstream_default_branch: as2650
+tapeouts:
+- org: google
+  run: gf180mcu-mpw0
+  slot: 105A
+  project: AS2650
+  size: caravel-upw
+  kind: digital
+  commit: ec5b131f10
+  commit_source: designer commit from Efabless tapeout/logs/git.info
+  tag: google/gf180mcu-mpw0/105A
+  branch: tapeout/google/gf180mcu-mpw0/105A
+  page: https://wafer.space/google-gf180mcu-mpw0/
+generated: '2026-10-17T23:12:31Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/google/gf180mcu-mpw0/105A
+- upstream/as2650
+- upstream/main
